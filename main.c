@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "hello.c"
+#include "isleapyear.c"
 
 int main() {
 //    printf("Hello, World!\n");
-    printHello();
+    leapYear();
     return 0;
 }

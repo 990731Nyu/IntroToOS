@@ -3,4 +3,4 @@ project(IntroToOS C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(IntroToOS main.c hello.c)
+add_executable(IntroToOS main.c hello.c isleapyear.c)

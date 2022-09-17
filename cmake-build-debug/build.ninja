@@ -61,6 +61,12 @@ build CMakeFiles/IntroToOS.dir/hello.c.obj: C_COMPILER__IntroToOS_Debug D$:/Prog
   OBJECT_DIR = CMakeFiles\IntroToOS.dir
   OBJECT_FILE_DIR = CMakeFiles\IntroToOS.dir
 
+build CMakeFiles/IntroToOS.dir/isleapyear.c.obj: C_COMPILER__IntroToOS_Debug D$:/Programs/C_program/IntroToOS/isleapyear.c || cmake_object_order_depends_target_IntroToOS
+  DEP_FILE = CMakeFiles\IntroToOS.dir\isleapyear.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\IntroToOS.dir
+  OBJECT_FILE_DIR = CMakeFiles\IntroToOS.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target IntroToOS
@@ -69,7 +75,7 @@ build CMakeFiles/IntroToOS.dir/hello.c.obj: C_COMPILER__IntroToOS_Debug D$:/Prog
 #############################################
 # Link the executable IntroToOS.exe
 
-build IntroToOS.exe: C_EXECUTABLE_LINKER__IntroToOS_Debug CMakeFiles/IntroToOS.dir/main.c.obj CMakeFiles/IntroToOS.dir/hello.c.obj
+build IntroToOS.exe: C_EXECUTABLE_LINKER__IntroToOS_Debug CMakeFiles/IntroToOS.dir/main.c.obj CMakeFiles/IntroToOS.dir/hello.c.obj CMakeFiles/IntroToOS.dir/isleapyear.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\IntroToOS.dir
